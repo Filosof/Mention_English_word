@@ -1,0 +1,229 @@
+1) Link - посилання
+2) edit - редагувати
+3) Notification - повідомлення, сповіщення
+4) top - зверху
+5) bottom - знизу
+6) padding - внутрішні відступи, підкладка
+7) margin - поле (поле між блоками)
+8) division - поділ
+9) border - рамка, кордом, межа
+10) font - шрифт
+11) size - розмір
+12) font–size - розмір шрифту
+13) text - shadow
+14) width - ширина
+15) height - висота
+16) Advanced - Продвинутий
+17) advance - завчасно, заздалегідь
+18) source - джерело
+19) Prepare - готуватися
+20) core - ядро
+21) threads - нитки, потоки
+22) path - шлях
+23) Rate - Оцінити
+24) vowel - голосний
+25) consonant - приголосний звук(як іменник), приголосний, співзвучний, сумісний (як прикметник)
+26) torch - факел, смолоскип, освітлювальний приклад
+27) flashlight - ліхтарик
+28) Personal Pronouns - особові займенники
+29) Singular - однина
+30) I - я
+31) you (u) - ти
+32) he - він
+33) she - вона
+34) it - це
+35) Plural - множина
+36) we - ми
+37) you - ти 
+38) they - вони
+39) That what do you not hate, you will tolerate - Те, що ти не ненавидиш, ти будеш терпіти
+40) tracker - мисливець
+41) Teach - когось вчиш
+42) Learn - сам вчиш
+43) Study - це коли наприклад в універі предмет вчиш
+44) We don’t want to do that - Ми не хочем цього робити
+45) I didn’t know what to do - Я не знав, що робити
+46) What did they do last Monday? - Що вони зробили минулого понеділка
+47) Miranda does this better than you - Міранда робить це краще, ніж ти
+48) How often do they play tennis? - як часто вони грають теніс?
+49) What are Lilly and Ann doing here? - Що вони тут роблять?
+50) dream - мрія
+51) recharge - поповнення
+52) recover - відновити
+53) put - поставити
+54) best sellers - найкращий продавець, найходовіший товар
+55) Phone case - чохол для телефон
+56) But remember, the brick walls are there for a reason. The brick walls are not there to keep us out. The brick walls are there to give us a chance to show how badly we want something. Because the brick walls are there to stop the people who don’t want it badly enough. They’re there to stop the other people. - Але пам’ятайте, цегляні стіни є там не просто так. Цегляні стіни там не для того, щоб нас зупинити. Цегляні стіни є там, щоб дати нам шанс зрозуміти, як сильно ми чогось хочемо. Цегляні стіни є там, щоб зупинити людей, які хочуть цього недостатньо. Вони там, щоб зупинити інших людей.
+57) Be careful with your thoughts – they are the beginning of deeds. - Будь обережний зі своїми думками, адже з них починаються вчинки.
+58) Life is a succession of lessons which must be lived to be understood. - Життя – це уроки успіху, які необхідно прожити, щоб їх зрозуміти.
+59) The memory warms you up inside, but it also breaks your soul apart. - Пам’ять не тільки гріє зсередини, але і розриває душу на частини.
+60) Stretching his hand out to catch the stars, he forgets the flowers at his feet. - Простягаючи руки до зірок, людина забуває про квіти, що розпустилися біля його ніг.
+61) When you start thinking a lot about your past, it becomes your present and you can’t see your future without it. - Коли починаєш багато думати про минуле, воно стає твоїм справжнім, за яким ти вже не зможеш розгледіти ніякого майбутнього.
+62) For the world you may be just one person, but for one person you may be the whole world! - Для світу ти просто один з багатьох, але для когось ти цілий світ!
+63) Everyone has one’s own path. - У кожного свій власний шлях.
+64) I’ll get everything I want. - Я отримаю все, що хочу.
+65) Remember who you are. - Пам’ятай, хто ти є.
+66) A life is a moment. - Життя це мить.
+67) Destroy what destroys you. - Руйнуй те, що руйнує тебе.
+68) Fall down seven times, stand up eight. - Впади сім разів, але піднімися вісім.
+69) Never stop dreaming. - Ніколи не припиняй мріяти.
+70) Respect the past, create the future! - Шануй минуле – твори майбутнє!
+71) Nobody’s perfect, but me. - Ніхто не ідеальний, крім мене.
+72) Wait and see. - Поживемо – побачимо.
+73) Money often costs too much. - Гроші часто коштують занадто багато.
+74) I shall not live in vain. - Я не буду жити марно.
+75) My life my rules. - Моє життя – мої правила.
+76) Success consists of going from failure to failure without loss of enthusiasm». (Winston Churchill) - Успіх – це вміння рухатись від невдачі до невдачі, не втрачаючи ентузіазму
+77) You miss 100% of the shots you do not take». (Wayne Gretzky) - Ви промахнетеся 100 раз із 100 кидків, які так і не зробите»
+78) It’s not the years in your life that count. It’s the life in your years.(Abraham Lincoln) - Має значення не кількість прожитих років, а якість вашого життя в ці роки. (Авраам Лінкольн)
+79) You only live once, but if you do it right, once is enough.(Мей Уест) - Ми живемо один раз, але якщо правильно розпорядитися життям, то і одного разу достатньо. (Мей Уест)
+80) Life is 10% what happens to me and 90% of how I react to it.(Charles Swindoll) - Життя на 10% складається з того, що відбувається зі мною, і на 90% з того, як я на це реагую. (Чарльз Свіндолл)
+81) If a book about failures does not sell, is it a success?(Jerry Seinfeld) - Якщо книга про провал не продається, чи можна вважати це успіхом? (Джеррі Сайнфелд)
+82) We who wander this wasteland in search of our better selves.(Mad max) - Ми ті, хто блукають по цій пустині в пошуках кращого себе
+83) Repeat - повторити
+84) Memoirs - спогади
+85) tracker, hunter - мисливець
+86) Gifts - подарунки
+87) Wasting - втратити
+88) Naked - голий
+89) Vital - важливий, жиитєвонеобхідний
+90) Mood - настрій
+91) selfish - егоїстичний
+92) self - себе
+93) Chill out - охолоньте, розслабтеся
+94) eat - їсти
+95) ate - з'їв (минулий час)
+96) highlight - виділити
+97) Thanks - Дякую
+98) Sneak - підкрадатися, злодій
+99) Meat - м'ясо
+100) Come with me - Ходімо зі мною
+101) Egg - Яйця
+102) Grave - могила
+103) Congratulations - мої вітання, вітаю
+104) Pleased to meet you - радий зустрітися з вами
+105) You are welcome,Welcome - Нема за що
+106) I promise - обіцяю
+107) painkiller - знеболююче
+108) a little bit - трішки
+109) i hade a goal - У мене була мета, ціль
+110) i am shooting for a goal - Я йду до своєї цілі
+111) you got to have a purpose - ти повинен мати ціль
+112) awful - жахливий
+113) joker - жартівник, ловкач
+114) You are awful joker - ти жахливий жартівник
+115) My memory is brilliant - Моя пам'ять геніальна(блискуча)
+116) Not at all - Будь ласка(нема за що)
+117) All pain for beauty - Краса це боляче?
+118) Alina, your memory is brilliant - В тебе блискуча пам'ять, Алін?
+119) As you know, no - Як ти знаєш ні
+120) Give me one more chance - Дай мені ще один шанс
+121) You are wrong - Ти неправий
+122) Time will tell how much I love you - Час покаже як сильно я тебе люблю
+123) What is the point to stay home all day? - Який сенс залишатися вдома весь день
+124) point - сенс, смисл
+125) let me tell your something - Дозвольте розповісти щось
+126) own - своя
+127) same - Так само, одне і теж
+128) able - здібний, способний
+129) I am able to do that - я можу це зробити
+130) about - абаут
+131) I am into you - Я вклюбився в тебе
+132) I am not wasting my time - я не витрачаю свій час
+133) anymore - більше
+134) Can't take this anymore - Більше не можу це терпіти
+135) can't take this - Не можу це зробити / не можу це прийняти
+136) forsake me - Залиште мене
+137) You are talking too loud - Ви говорите занадто голосно
+138) Loud - голосний
+139) So just shut your mouth! - Так що просто закрий свій рот
+140) glory to god - Слава Богу
+141) Hypocrisy - лицемерие
+142) landing - приземлення, посадка
+143) Were told lies like it's truth - ВОни брехали так, ніби говорили правду(ніби це правда)
+144) Just let me die - Просто дай мені вмерти
+145) let - Дозволяти, здавати в оренду, нехай, хай
+146) hurt - боляче, завдати болю
+147) warm - теплий
+148) warms - Гріє
+149) You were so close. - Ти був так близько.
+150) you still have time - У тебе ще є час
+151) I've got it - я зрозумів
+152) Joint, merge -  об'єднати, з'єднувати
+153) We are looking for - ми шукаємо
+154) discard - відхилити, відкинути
+155) discard your changes - відхилити Зміни
+156) intention - намір, мета
+157) Guarding & Security - Охорона та безпека
+158) 12am - це 12 ночі
+159) 12рm - це 12 дня
+160) It might not be true. - Можливо, це неправда.
+161) It might be true. - Це може бути правдою.
+162) mind - інтелект, розум
+163) in my mind - В моїх думках
+164) brain - мозок
+165) give up - здаватися, кидати
+166) keep calm - зберігай спокій
+167) I don"t care - я не боюсь
+168) I want more/less - Я хочу більше/менше
+169) May i help you - Чи можу я допомогти?
+170) Thanks for the food - Дякую за їжу
+171) Reference - посилання або довідка, рекомендація
+172) Distribute - розподілити, поширювати
+173) Extending and Embedding - розширення та вбудовування
+174) frequently asked questions (with answers!) - найпоширеніші запитання з відповіддями
+175) tool - інструмент
+176) familiar - знайомий, близький 
+177) Disadvantages - недоліки
+178) Oversee - нагляд
+179) Overseen - під контролем
+180) Overseer - наглядач
+181) helpful hint - корисна порада
+182) hammer - молоток
+183) dewellers - мешканець
+184) assign - призначити
+185) hold on - зачекай
+186) holder - власник
+187) hold - тримати
+188) to take a closer look - щоб поглянути ближче
+189) keep track - відслідковувати
+190) keep - тримати, залишатися, берегти
+191) keep me updated - тримай мене в курсі
+192) keep me posted - тримай мене в курсі
+193) alive - живий, бадьорий
+194) Receive - отримувати
+195) Receive our news - отримувати наші новини
+196) Quality - якість
+197) Wish - бажання
+198) scale - масштаб, шкала
+199) speech - мовлення
+200) recognition - визнання, розпізнавання, усвідомлення
+201) speech recognition - розмізнавання мови(мовлення)
+202) requires - вимагає, потребує, залежить
+203) # NOTE: this example requires PyAudio because it uses the Microphone class - Примітка: для цього прикладу потрібен PyAudio, оскільки він використовує клас Microphone
+204) obtain - отримати, діставати, добиватися, 
+205) # obtain audio from the microphone - отримати аудіо з мікрофона
+206) approximately  - приблизно
+207) subscribe - підписатися
+208) transcribe - переписувати
+209) below - нижче
+210) each - кожен
+211) under each - під кожним
+212) Put "a" or "an" before each word - Постав а або or перед кожним словом
+213) owl - сова
+214) kindly - доброзичливо, држелюбно
+224) participate - брати участь, користуватись
+225) mention - згадувати, згадка
+226) Абетка англійської мови заснована на латинській абетці та складається з - 26 букв.
+227) 6 букв позначають голосні звуки (монофтонги та дифтонги, самостійно або в складі диграфів): - A, E, I, O, U, Y.
+228) 20 букв позначають приголосні звуки: - B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Z
+229) Буква Y позначає - як приголосний, так і голосні звуки. nouns - іменники
+215) plural - множина
+216) form their plural - утворюють їх множину
+217) Most nouns form their plural by adding _s - Більшість іменників утворюють множину, додаючи _s
+218) affirmative - стверджувальний
+219) Negative - заперечний
+220) Interrogative - запитальний
+221) Poor - поганий, неприємний, бідний
+222) kind - добрий
+223) mention - згадувати, згадка
