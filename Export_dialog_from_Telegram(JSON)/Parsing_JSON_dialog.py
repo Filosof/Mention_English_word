@@ -45,18 +45,22 @@ def writing_to_file(file_name, lines):
     file.close()
 
 
-def search_coincidence(list):   #Функція пошуку співпадінь. ЇЇ ще треба доробити
-    length = len(list)
-    for i,j in enumerate(list):
-        for x in range(i+1,length):
-            if list[i][0]==list[x][0] or list[i][1]==list[x][1]:
-                print('True')
-                print(list[i][0],list[x][0])
+def search_coincidence(list):   #Функція пошуку співпадінь
+    for i in range(len(list)):
+        for x in range(i+1,len(list)):
+            if list[i][0]==list[x][0]:
+                print('Coincidences:')
+                print(list[i][0],list[i][1])
                 print('or')
-                print(list[i][1], list[x][1])
-        #print(list[i])
-        #print(j)
-
+                print(list[x][0], list[x][1])
+                print('Delete first couple? Press 1 and enter.')
+                print('Delete second couple? Press 2 and enter.')
+                print("Don't make changes? Press 0 and enter.")
+                action = input()
+                if action=='1':
+                    del list[i]
+                if action=='2':
+                    del list[x]
 
 backup()
 lines = read_from_file(WORD_FILE)        # Відкриваю файл зі списком попередніх слів
@@ -70,14 +74,13 @@ for dialog in chats_list:                    #За допомогою циклу
     if dialog['name']==DIALOG_NAME:             #Якщо ключ 'name' = 'Назва потрібного чату', то продовжуємо працювати з потрібним діалогом
         message_list = dialog['messages']
         for message in message_list:
-            if message['id']>=269:           #Передивившись файл вручну знайшов що мені потрібно зберегти всі повідомлення починаючи з 252-го
+            if message['id']>=419:           #Передивившись файл вручну знайшов що мені потрібно зберегти всі повідомлення починаючи з 419-го
                 text = '0) '+message['text']+'\n'   #Добавляю до строки спереду номер і в кінці перенос на новий рядок щоб використати готову,
                                                     # перевірену функцію 'transfer_to_pair_list()' з файлу Program_to_mention_English_word_console.py
                 word_list_from_JSON.append(text)
 
 transfer_to_pair_list(word_list_from_JSON)      #Перетворюю список строк в список типу [key:value] для подальшої роботи з ними
-#----Тут має бути функція як перевіряє збіги
 lines = lines+word_list_from_JSON               #Об'єдную дві змінні (попередні слова і нові слова)
-#search_coincidence(lines)
+search_coincidence(lines)                    #Функція як перевіряє збіги
 writing_to_file(WORD_FILE,lines)             #Записую результат у файл
 
