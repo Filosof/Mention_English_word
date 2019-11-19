@@ -1,8 +1,24 @@
 import json
+import inspect              #
+import os.path              # Модулі за допомогою яких я створюю паки і отримую шлях до файлу з кодом
+import shutil               # Модуль для копіювання файлів (для створення backup файла списку слів)
+import datetime             # Модуль для отримання часу (для створення унікальних backup файлів)
 
-#============Глобальні змінні
+#============Условно глобальні змінні
+WORD_FILE = 'word_list.txt'
 JSON_FILE_NAME = 'result.json'
 DIALOG_NAME = 'Рожище'
+
+
+def backup():
+    filename = inspect.getframeinfo(inspect.currentframe()).filename    #
+    source_file_path = os.path.dirname(os.path.abspath(filename))       # Визначаємо шлях до файла з виконуваним кодом
+    if not os.path.exists(source_file_path + '\\Backup_word'):   #Перевіряємо чи існує папка Backup_word
+        os.makedirs(source_file_path + '\\Backup_word')          #Якщо ні, то створюємо папку 'Backup_word' в директорії з виконуваним файлом
+    now = datetime.datetime.now()       #Отримуємо поточну дату і час
+    time = str(now.year)+'.'+str(now.month)+'.'+str(now.day)+'_'+str(now.hour)+'.'+str(now.minute) # Підганяємо під потрібний нам формат
+    backup_file_path = source_file_path+'\\Backup_word\\word_list_backup_' + time + '.txt'  #Зберігаємо назву backup-файла
+    shutil.copy2(source_file_path+'\\word_list.txt', backup_file_path)  #Копіюємо файл
 
 def read_from_file(file_name):
     file = open(file_name, 'r', encoding='utf-8')
@@ -29,21 +45,25 @@ def writing_to_file(file_name, lines):
     file.close()
 
 
-def search_coincidence(list):   #Функція пошуку співпадінь. ЇЇ ще треба доробити
-    length = len(list)
-    for i,j in enumerate(list):
-        for x in range(i+1,length):
-            if list[i][0]==list[x][0] or list[i][1]==list[x][1]:
-                print('True')
-                print(list[i][0],list[x][0])
+def search_coincidence(list):   #Функція пошуку співпадінь
+    for i in range(len(list)):
+        for x in range(i+1,len(list)):
+            if list[i][0]==list[x][0]:
+                print('Coincidences:')
+                print(list[i][0],list[i][1])
                 print('or')
-                print(list[i][1], list[x][1])
-        #print(list[i])
-        #print(j)
+                print(list[x][0], list[x][1])
+                print('Delete first couple? Press 1 and enter.')
+                print('Delete second couple? Press 2 and enter.')
+                print("Don't make changes? Press 0 and enter.")
+                action = input()
+                if action=='1':
+                    del list[i]
+                if action=='2':
+                    del list[x]
 
-
-
-lines = read_from_file('word_list.txt')        # Відкриваю файл зі списком попередніх слів
+backup()
+lines = read_from_file(WORD_FILE)        # Відкриваю файл зі списком попередніх слів
 transfer_to_pair_list(lines)                   # Перетворюю їх в список типу [key:value] для подальшої роботи з ними
 #===
 word_list_from_JSON = []
@@ -54,14 +74,13 @@ for dialog in chats_list:                    #За допомогою циклу
     if dialog['name']==DIALOG_NAME:             #Якщо ключ 'name' = 'Назва потрібного чату', то продовжуємо працювати з потрібним діалогом
         message_list = dialog['messages']
         for message in message_list:
-            if message['id']>=269:           #Передивившись файл вручну знайшов що мені потрібно зберегти всі повідомлення починаючи з 252-го
+            if message['id']>=419:           #Передивившись файл вручну знайшов що мені потрібно зберегти всі повідомлення починаючи з 419-го
                 text = '0) '+message['text']+'\n'   #Добавляю до строки спереду номер і в кінці перенос на новий рядок щоб використати готову,
                                                     # перевірену функцію 'transfer_to_pair_list()' з файлу Program_to_mention_English_word_console.py
                 word_list_from_JSON.append(text)
 
 transfer_to_pair_list(word_list_from_JSON)      #Перетворюю список строк в список типу [key:value] для подальшої роботи з ними
-#----Тут має бути функція як перевіряє збіги
 lines = lines+word_list_from_JSON               #Об'єдную дві змінні (попередні слова і нові слова)
-search_coincidence(lines)
-writing_to_file('rezult.txt',lines)             #Записую результат у файл
+search_coincidence(lines)                    #Функція як перевіряє збіги
+writing_to_file(WORD_FILE,lines)             #Записую результат у файл
 
