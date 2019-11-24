@@ -1,3 +1,4 @@
+446
 1) Link - посилання
 2) edit - редагувати
 3) Notification - повідомлення, сповіщення
@@ -298,103 +299,103 @@
 298) landslide - зсув
 299) decrypt - розшифрувати
 300) encrypt - зашифрувати
-302) benefits - вигоди, переваги, користь
-303) exist - існувати, бути, жити
-304) customer - покупець, клієнт, замовник
-305) pay per use - плата за використання
-306) milestones - етап
-307) =============================================== - ) ================================================
-308) coincidence - збіг, спіпадіння
-309) stack - стек, куча
-310) may be - може бути
-311) may be required - може знадобитися
-312) What's going on? - Що відбувається?
-313) Don't let me down  - Не підведи мене, Не розчаруй мене
-314) Large medium small - великий, середній, малий
-315) Pronunciation - вимова
-316) Definition - визначення (дефініція)
-317) Switch on, turn on - увімкнути
-318) Your turn  - твоя черга
-319) Fabulous - казковий, нейморівний
-320) Incredible - нейморівно
-321) Nice - добре
-322) Cool - класно
-323) Fine - чудово
-324) Cute - милий
-325) Brilliant - блискучий
-326) Brilliant idea - геніальна ідея
-327) Honest - чесний
-328) Generous - щедрий
-329) Polite - ввічливий
-330) Pretty - гарна (pretty man не може бути)
-331) Handsome - гарний (чоловік)
-332) Attractive - привабливий
-333) useful - корисно, корисний
-334) Useless - не корисний
-335) Exhausted - виснажений (вища міра tired)
-336) Shame on you - ганьба тобі
-337) I hope  - я сподіваюсь
-338) Let me go - дай мені піти
-339) I don't think so - я так не думаю
-340) I miss you - я сумую за тобою
-341) Trim the fat - розтряси жирок
-342) Detest - вища міра ненависті (hate)
-343) Advice - порада
-344) Wine - вино
-345) You can be mistaken - ви можете помилитись
-346) Point - точка
-347) Dot - крапка
-348) How was your day? - Як минув твій день?
-349) Can you tell me something interesting about yourself? - Чи можете ви сказати мені щось цікаве про себе?
-350) Billion - мільярд
-351) Pioneer - першопроходець, новатор, першовідкривач
-352) Cycle - цикл, циклічність, велосипед
-353) dash - тире
-354) weak - слабкий
-355) slave - раб
-356) immortal - безсмертний
-357) far - далеко
-358) nightmare - кошмар
-359) Riot - бунт, повстання
-360) Indestructible - незнищенний
-361) invincible - непереможний, нездоланний
-362) expectations - очікування
-363) prove it - доведи це
-364) listen up - слухайте
-365) And guess what - і здогадайтеся, що
-366) guess what - вгадай що
-367) This is a deal - це угода
-368) deal - угода
-369) Well we're about to enter the building - Ну ми збираємось увійти до будівлі
-370) numb - оніміння, заціпенілий, задубілий
-371) corrupted - зіпсований
-372) corrupting - псується
-373) corrupt - корумпований, продажний
-374) small talk - невеличка розмова, болтовня, розмова ні про що
-375) mirror - дзеркало
-376) access - доступ
-377) delay - затримка
-378) sequence numbers - порядкові номери
-379) scars - шрами
-380) hear - чути
-381) escape - втеча
-382) haunt - переслідувати
-383) bones - кістки
-384) underneath - під ним
-385) let go - відпустити
-386) stressed out - виснажений, напружений
-387) rise - підйом, зліт
-388) above - вище, понад, над
-389) patiently - терпляче
-390) thoughts - думки
-391) pressure - тиск
-392) dawned - зорі
-393) cuz - бо
-394) enemy - ворог
-395) enemies - вороги, супротивники
-396) pissed - злий
-397) pissed off - Озлоблений
-398) verses - вірші
-399) surgeon - хірург, військовий лікар
-400) sick - хворий
-401) patient - пацієнт, терплячий, наполегливий
+301) benefits - вигоди, переваги, користь
+302) exist - існувати, бути, жити
+303) customer - покупець, клієнт, замовник
+304) pay per use - плата за використання
+305) milestones - етап
+306) =============================================== - ) ================================================
+307) coincidence - збіг, спіпадіння
+308) stack - стек, куча
+309) may be - може бути
+310) may be required - може знадобитися
+311) What's going on? - Що відбувається?
+312) Don't let me down  - Не підведи мене, Не розчаруй мене
+313) Large medium small - великий, середній, малий
+314) Pronunciation - вимова
+315) Definition - визначення (дефініція)
+316) Switch on, turn on - увімкнути
+317) Your turn  - твоя черга
+318) Fabulous - казковий, нейморівний
+319) Incredible - нейморівно
+320) Nice - добре
+321) Cool - класно
+322) Fine - чудово
+323) Cute - милий
+324) Brilliant - блискучий
+325) Brilliant idea - геніальна ідея
+326) Honest - чесний
+327) Generous - щедрий
+328) Polite - ввічливий
+329) Pretty - гарна (pretty man не може бути)
+330) Handsome - гарний (чоловік)
+331) Attractive - привабливий
+332) useful - корисно, корисний
+333) Useless - не корисний
+334) Exhausted - виснажений (вища міра tired)
+335) Shame on you - ганьба тобі
+336) I hope  - я сподіваюсь
+337) Let me go - дай мені піти
+338) I don't think so - я так не думаю
+339) I miss you - я сумую за тобою
+340) Trim the fat - розтряси жирок
+341) Detest - вища міра ненависті (hate)
+342) Advice - порада
+343) Wine - вино
+344) You can be mistaken - ви можете помилитись
+345) Point - точка
+346) Dot - крапка
+347) How was your day? - Як минув твій день?
+348) Can you tell me something interesting about yourself? - Чи можете ви сказати мені щось цікаве про себе?
+349) Billion - мільярд
+350) Pioneer - першопроходець, новатор, першовідкривач
+351) Cycle - цикл, циклічність, велосипед
+352) dash - тире
+353) weak - слабкий
+354) slave - раб
+355) immortal - безсмертний
+356) far - далеко
+357) nightmare - кошмар
+358) Riot - бунт, повстання
+359) Indestructible - незнищенний
+360) invincible - непереможний, нездоланний
+361) expectations - очікування
+362) prove it - доведи це
+363) listen up - слухайте
+364) And guess what - і здогадайтеся, що
+365) guess what - вгадай що
+366) This is a deal - це угода
+367) deal - угода
+368) Well we're about to enter the building - Ну ми збираємось увійти до будівлі
+369) numb - оніміння, заціпенілий, задубілий
+370) corrupted - зіпсований
+371) corrupting - псується
+372) corrupt - корумпований, продажний
+373) small talk - невеличка розмова, болтовня, розмова ні про що
+374) mirror - дзеркало
+375) access - доступ
+376) delay - затримка
+377) sequence numbers - порядкові номери
+378) scars - шрами
+379) hear - чути
+380) escape - втеча
+381) haunt - переслідувати
+382) bones - кістки
+383) underneath - під ним
+384) let go - відпустити
+385) stressed out - виснажений, напружений
+386) rise - підйом, зліт
+387) above - вище, понад, над
+388) patiently - терпляче
+389) thoughts - думки
+390) pressure - тиск
+391) dawned - зорі
+392) cuz - бо
+393) enemy - ворог
+394) enemies - вороги, супротивники
+395) pissed - злий
+396) pissed off - Озлоблений
+397) verses - вірші
+398) surgeon - хірург, військовий лікар
+399) sick - хворий
+400) patient - пацієнт, терплячий, наполегливи
