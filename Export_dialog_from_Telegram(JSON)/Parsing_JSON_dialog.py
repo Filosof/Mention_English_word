@@ -8,7 +8,8 @@ import shutil  # Модуль для копіювання файлів (для �
 WORD_FILE = 'word_list.txt'
 JSON_FILE_NAME = 'result.json'
 DIALOG_NAME = 'Рожище'
-
+MESSAGE_ID = ''
+NEW_MESSAGE_ID = ''
 
 def backup():
     filename = inspect.getframeinfo(inspect.currentframe()).filename  #
@@ -26,6 +27,10 @@ def backup():
 def read_from_file(file_name):
     file = open(file_name, 'r', encoding='utf-8')
     line = file.readlines()
+    global MESSAGE_ID
+    MESSAGE_ID = int(line[0])
+    line = line[1:]
+    print(line)
     file.close()
     return line
 
@@ -42,6 +47,7 @@ def transfer_to_pair_list(list):
 def writing_to_file(file_name, lines):
     count = 1
     file = open(file_name, 'w', encoding='utf-8')
+    file.write(str(NEW_MESSAGE_ID)+'\n')
     for content in lines:
         file.write(str(count) + ') ' + content[0] + ' - ' + content[1] + '\n')
         count += 1
@@ -82,19 +88,17 @@ def main():  # Головна функція
     content = json.load(file)
     chats_list = content['chats']['list']  # Тут ми отримуємо список всіх чатів
     for dialog in chats_list:  # За допомогою циклу перебираємо список всіх чатів
-        if dialog[
-            'name'] == DIALOG_NAME:  # Якщо ключ 'name' = 'Назва потрібного чату', то продовжуємо працювати з потрібним діалогом
+        if dialog['name'] == DIALOG_NAME:  # Якщо ключ 'name' = 'Назва потрібного чату', то продовжуємо працювати з потрібним діалогом
             message_list = dialog['messages']
             for message in message_list:  # Цикл для перебору всіх повідомлень
-                if message[
-                    'id'] >= 420:  # Передивившись файл вручну знайшов що мені потрібно зберегти всі повідомлення починаючи з 419-го
-                    text = '0) ' + message[
-                        'text'] + '\n'  # Добавляю до строки спереду номер і в кінці перенос на новий рядок щоб використати готову,
+                if message['id'] >= MESSAGE_ID:  # Передивившись файл вручну знайшов що мені потрібно зберегти всі повідомлення починаючи з 419-го
+                    text = '0) ' + message['text'] + '\n'  # Добавляю до строки спереду номер і в кінці перенос на новий рядок щоб використати готову,
                     # перевірену функцію 'transfer_to_pair_list()' з файлу Program_to_mention_English_word_console.py
                     word_list_from_JSON.append(text)
+                    global NEW_MESSAGE_ID
+                    NEW_MESSAGE_ID = message['id']
 
-    transfer_to_pair_list(
-        word_list_from_JSON)  # Перетворюю список строк в список типу [key:value] для подальшої роботи з ними
+    transfer_to_pair_list(word_list_from_JSON)  # Перетворюю список строк в список типу [key:value] для подальшої роботи з ними
     lines = lines + word_list_from_JSON  # Об'єдную дві змінні (попередні слова і нові слова)
     search_coincidence(lines)  # Функція як перевіряє збіги
     writing_to_file(WORD_FILE, lines)  # Записую результат у файл
